@@ -1,0 +1,135 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.wrap{
+  width: 1002px;
+  margin: 0 auto;
+}
+
+.bar{
+  height: 30px;
+  background-color: #DDDDDD;
+}
+
+.bar ul{
+  float: right;
+}
+
+.bar ul li{
+  float: left;
+  margin: 5px;
+
+}
+
+.bar li a{
+  text-decoration: none;
+  font-size: 16px; 
+  vertical-align: middle;
+
+}
+
+.bar li img{
+  margin-right: 5px;
+  float: left;
+}
+
+.bar li span{
+  float: left;
+}
+
+.facebook{
+  border-right: 3px solid #666666;
+  padding-right: 8px;
+}
+
+.facebook span{
+  color:#4460a0;
+}
+
+.twitter span{
+  color: #00aaec;
+}
+
+.header h1{
+  float: left;
+}
+
+.header h1 a{
+  background-image: url(../img/logo.png);
+  width: 171px;
+  height: 36px;
+  display: block;
+  text-indent: 101%;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.menu{
+ 
+  float: right;
+}
+
+.menu li {
+ float: left;
+ margin-right: 20px;
+}
+
+.menu li a{
+  display: block;
+  color: #00cc99;
+  text-decoration: none;
+  width: 100px;
+  height: 50px;
+  text-align: center;
+  line-height: 50px;
+}
+
+.menu a:hover{
+  border-bottom: #00cc99 solid 5px;
+}
